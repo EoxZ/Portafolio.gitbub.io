@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Alejandro Suarez - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Edward Alejandro Suarez</div>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#skills">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#linkedin">LinkedIn</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="/cv.pdf" download="CV_Edward_Suarez.pdf">Descargar CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section animate-fade-in">
+        <div class="container">
+            <img src="foto-perfil.jpeg" alt="Edward Alejandro Suarez" class="profile-pic">
+            <h1>Sobre Mi</h1>
+            <p> Técnico en Sistemas y estudiante de octavo semestre de Ingeniería de Sistemas, con experiencia en soporte técnico de niveles N1 y N2, y
+ en la gestión de incidencias en entornos corporativos. Familiarizado con herramientas como Active Directory, Office 365, AS400, VPNs y
+ plataformas de gestión como Aranda, CA.
+ Cuento con conocimientos en lenguajes de programación como Java y Python, así como en bases de datos relacionales (SQL, PL/SQL), lo
+ que me permite apoyar el desarrollo de soluciones y la automatización de procesos. He complementado mi formación con cursos en AWS
+ y Linux, que me han permitido adquirir bases sólidas en servicios en la nube y en la administración de sistemas operativos.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section animate-fade-in">
+        <div class="container">
+            <h2>Tecnologías</h2>
+            <div class="skills-grid">
+                <div class="skill html animate-fade-in">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="skill css animate-fade-in">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="skill js animate-fade-in">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill python animate-fade-in">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill java animate-fade-in">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill linux animate-fade-in">
+                    <i class="fab fa-linux"></i>
+                    <span>Linux</span>
+                </div>
+                <div class="skill sql animate-fade-in">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill aws animate-fade-in">
+                    <i class="fab fa-aws"></i>
+                    <span>AWS</span>
+                </div>
+                <div class="skill n8n animate-fade-in">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>N8N</span>
+                </div>
+                <div class="skill git animate-fade-in">
+                    <i class="fab fa-git"></i>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section animate-fade-in">
+            <div class="container">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project animate-fade-in">
+                    <h3>Juego de laberinto con Python 🐍</h3><br>
+                    <p style="text-align: left;">Un juego de laberinto en Python, desarrollado completamente en consola, donde el jugador debe encontrar la salida aplicando lógica y control de movimientos.
+<br>🔍 ¿De qué se trata?
+ El juego presenta un mapa en forma de matriz donde:
+# representa paredes
+' ' (espacio en blanco) son caminos libres
+P es el jugador o persona
+E es la salida o meta que debe alcanzarse
+El jugador puede moverse por el laberinto usando comandos (W, A, S, D) y el sistema valida cada paso para evitar atravesar muros o salirse del mapa.<br><br>
+
+
+
+<h4>🛠️ Características destacadas:</h4>
+<ul style="text-align: left; list-style: none; padding-left: 0;">
+    <li>✅ Niveles predefinidos: fácil y medio</li>
+    <li>✅ Generación aleatoria de laberintos (modo difícil)</li>
+    <li>✅ Control total por teclado</li>
+    <li>✅ Validación de colisiones y límites</li>
+    <li>✅ Visualización clara del entorno</li>
+    <li>✅ Contador de movimientos para evaluar rendimiento</li>
+</ul>
+<h4>👨‍💻 Tecnologías y conceptos aplicados:</h4>
+<ul style="text-align: left; list-style: none; padding-left: 0;">
+    <li>🔹 Python 3</li>
+    <li>🔹 Funciones, bucles y estructuras de control</li>
+    <li>🔹 Matrices (listas anidadas)</li>
+    <li>🔹 Lógica espacial y control de eventos</li>
+</ul>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z1lmn-pXjSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="project animate-fade-in">
+                    <h3>Sistema de Gestión de Parqueadero en Java ☕</h3><br>
+                    <p>🎯Este proyecto simula el funcionamiento de un parqueadero real, permitiendo registrar la entrada y salida de vehículos, calcular tarifas en COP según el tipo de vehículo y controlar la capacidad disponible. <br><br>
+<h4>🔧 Características principales:</h4>
+<ul style="text-align: left; list-style: none; padding-left: 0;">
+    <li>✅ Registro de automóviles, motocicletas y camiones</li>
+    <li>✅ Control de hora de entrada y salida</li>
+    <li>✅ Cálculo automático del valor a pagar según tiempo y tipo de vehículo</li>
+    <li>✅ Validación de datos y estructura modular</li>
+    <li>✅ Aplicación de principios de POO (herencia, encapsulamiento, polimorfismo)</li>
+</ul>
+<h4>🧠 Tecnologías utilizadas:</h4>
+<ul style="text-align: left; list-style: none; padding-left: 0;">
+    <li>🔹 Java</li>
+    <li>🔹 Apache NetBeans</li>
+    <li>🔹 API java.time para control de tiempo</li>
+    <li>🔹 Estructuras dinámicas con ArrayList</li>
+</ul><br><br><br><br><br>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PQS4wrABYVs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="linkedin" class="section animate-fade-in">
+        <div class="container">
+            <h2>LinkedIn</h2>
+            <p>Connect with me on LinkedIn:</p>
+            <a href="https://www.linkedin.com/in/edwardalejandrosuarez" target="_blank" class="linkedin-link">
+                <i class="fab fa-linkedin"></i> View LinkedIn Profile
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section animate-fade-in">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <a href="https://wa.me/3004102373" target="_blank" class="contact-link whatsapp-link animate-fade-in"><i class="fab fa-whatsapp"></i> WhatsApp: 3004102373</a>
+                <a href="mailto:edwardsuareruiz@gmail.com" class="contact-link email-link animate-fade-in"><i class="fas fa-envelope"></i> Email: edwardsuareruiz@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="interaccion.js"></script>
+</body>
+</html>
